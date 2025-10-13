@@ -34,12 +34,12 @@ section p {line-height: 1.5em; padding: 0 20px 5px;}
 #experience article:hover {border: 1px dotted #ddd; background: #fefefe}
 #experience article h1 {border: none; font-size: 1.2em; font-style: italic; font-weight: bold; padding: 0; text-transform: none;}
 #experience article h1 a {color: #333; text-decoration: none}
-#experience article h1 a:hover {background-color: #333; color: #eee} 
+#experience article h1 a:hover {background-color: #333; color: #eee}
 #experience article h1 span {color: #777; font-size: 0.8em; font-weight: normal;}
 #experience article h2 {background: #eee; display: inline; font-size: 0.9em; font-weight: normal; padding: 3px;}
 #experience article .start, #experience article .end {background: #fff; border-top: 1px dashed #ddd; font-size: 0.75em; left: -80px; padding: 4px 0; position: absolute; text-align: center; top: 19px; width: 60px;}
 #experience article .end {top: 0; border: none}
-#experience article p {font-size: 0.9em; line-height: 22px; margin: 10px 0 0; padding-left: 0;}
+#experience article p {font-size: 0.9em; margin: 10px 0 0; padding-left: 0;}
 #experience article ul {font-size: 0.9em; margin-left: 20px;}
 #experience article ul li {margin: 10px 0; list-style: circle outside none; cursor: default}
 #experience article ul li:hover {list-style: disc outside none;}
