@@ -28,7 +28,7 @@ jobs:
       - Optimized GPU provisioning workflows, reducing machine onboarding and offboarding time from days to minutes
       - Diagnosed and resolved complex issues with bleeding-edge NVIDIA hardware and InfiniBand fabrics, reducing production downtime
       - Optimized cloud architecture patterns (AWS, OCI, Crusoe, Vultr) which reduced provisioning time and increased reliability of customer rented clusters
-      - Streamlined EKS cluster bringup with Terraform, and centralized configuration patterns which increased reliability and speed of provisioniong EKS cluster across regions and environments
+      - Streamlined EKS cluster bringup with Terraform, and centralized configuration patterns which increased reliability and speed of provisioning EKS cluster across regions and environments
 
   - company: Hive AI
     title: Senior Site Reliability Engineer
