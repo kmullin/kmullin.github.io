@@ -4,11 +4,7 @@ title: /resume
 
 # Resume stuff
 profile: |- # preserve newlines, no newline at end
-  Seasoned DevOps/Site Reliability Engineer with 15+ years of experience designing, developing, and implementing large-scale infrastructure systems, both on-prem baremetal and cloud based. My expertise lies in creating tools and writing infrastructure as code, with a deep understanding of continuous integration and delivery principles.
-
-  I've honed my skills by working closely with cross-functional teams of developers, and operations personnel, and I have excellent communication and collaboration skills. I'm a strong problem solver and am adept at troubleshooting complex issues in real-time and devising effective solutions to prevent future incidents. I do not run away from fires, and have been in the trenches of some of the largest most impactful incidents any organization will ever face.
-
-  Contributed to the launch of AWS Interactive Video Service, supporting trillions of minutes of video streamed annually across 90+ global datacenters and over 50,000 bare-metal servers.
+  I’m a seasoned reliability engineer with over 18 years of experience scaling global infrastructure across bare metal and cloud. I lead through crises with calm precision, resolving security breaches, datacenter outages, and platform-wide incidents. I bring deep expertise in automation, infrastructure as code (IaC), and continuous integration and delivery (CI/CD), with a track record of building resilient systems at scale, including AWS Interactive Video Service (IVS) which streams trillions of minutes annually. I’m trusted to drive reliability strategy, lead teams through chaos, and engineer systems that don’t fail twice.
 
 jobs:
   - company: Together AI
@@ -18,17 +14,22 @@ jobs:
       start: Jun 2024
       end: Oct 2025
     description: |-
-      As a founding SRE, I helped grow the team from inception to 10+ engineers in eight months while fostering a collaborative, inclusive culture. I led automation initiatives across the stack, building Ansible playbooks and multi-cloud Terraform modules that accelerated infrastructure provisioning and reduced manual errors.
-      Serving as an on-call escalation point, I resolved complex reliability issues, authored customer-facing RCAs, and directly guided customers on operational solutions, improving uptime and satisfaction.
+      As a founding SRE, I helped grow the SRE team from inception to 10+ engineers in my first eight months while fostering a collaborative, inclusive culture. I led automation initiatives across the stack, building Ansible playbooks and multi-cloud Terraform modules that accelerated infrastructure provisioning and reduced manual efforts.
+
+      Together.ai is an AI infrastructure platform / cloud provider specialized for generative AI and large model workloads. They combine high-performance GPU clusters with optimized software, tooling and research innovations, enabling users to train, fine-tune, and deploy models more affordably and efficiently, while preserving flexibility and control.
     duties:
-      - Developed unified Ansible playbooks and roles, consolidating legacy patterns and reducing complexity, leading to reduced cluster provisioning time
-      - Collaborated across teams to unblock product launches, contributing to on-time delivery of key features
+      - Consolidated legacy Ansible playbooks into unified roles, cutting cluster provisioning from days to hours and reducing customer complaints and support tickets
+      - Partnered across teams to unblock product launches, enabling audit, billing, and finance features that cut customer billing from days to minutes
+      - As final point of escalation, I authored and presented 20 customer facing Root Cause Analysis (RCAs) for high severity incidents
+      - Directly guided customers on operational solutions, improving uptime and satisfaction
+      - Modernized a large Go codebase and added GitHub Actions CI/CD pipelines, reducing friction and improving developer velocity
+      - Architected a multi-region network overlay across cloud and on-prem environments, providing secure access to 10K hosts across 5+ datacenter providers
       - Adopted ArgoCD and related tooling, cutting new Kubernetes cluster deployment time from multiple days to under two hours
       - Converted Kubernetes resources into Helm charts and deployed them via ArgoCD to ensure uniformity across 20+ clusters
       - Optimized GPU provisioning workflows, reducing machine onboarding and offboarding time from days to minutes
       - Diagnosed and resolved complex issues with bleeding-edge NVIDIA hardware and InfiniBand fabrics, reducing production downtime
-      - Optimized cloud architecture patterns (AWS, OCI, Crusoe, Vultr) which reduced provisioning time and increased reliability of customer rented clusters
-      - Streamlined EKS cluster bringup with Terraform, and centralized configuration patterns which increased reliability and speed of provisioning EKS cluster across regions and environments
+      - Optimized cloud architecture patterns which reduced provisioning time and increased reliability of customer rented clusters
+      - Streamlined EKS cluster provisioning with Terraform and centralized configurations, reducing setup time across regions and environments from days to minutes
 
   - company: Hive AI
     title: Senior Site Reliability Engineer
@@ -127,12 +128,13 @@ skills:
     - Puppet
     - Chef
     - Ansible
-  - Linux Distributions:
+  - Linux / Unix Distributions:
     - Debian / Ubuntu
     - RedHat (CentOS)
     - Arch
     - Gentoo
     - Slackware
+    - FreeBSD
   - Services:
     - DNS (Bind9, NSD, Unbound)
     - DHCP
